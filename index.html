@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr" data-uni="unil">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Titre du site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Arrière-plan : deux calques pour le fondu entre universités -->
+  <div class="bg" aria-hidden="true">
+    <div class="bg-layer is-visible"></div>
+    <div class="bg-layer"></div>
+    <div class="bg-veil"></div>
+  </div>
+
+  <header class="topbar">
+
+    <!-- Logo + sélecteur d'université -->
+    <div class="dropdown uni" id="uniDropdown">
+      <button class="uni-current" id="uniButton" type="button"
+              aria-haspopup="true" aria-expanded="false" aria-label="Changer d'université">
+        <span class="uni-badge" id="uniBadge"></span>
+        <svg class="chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+      <div class="dropdown-panel uni-panel">
+        <ul class="uni-list" id="uniList"></ul>
+      </div>
+    </div>
+
+    <h1 class="site-title">Titre du site</h1>
+
+    <!-- Connexion + menu -->
+    <div class="actions">
+      <a class="icon-btn" href="#connexion" aria-label="Se connecter" title="Se connecter">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="8" r="4"/>
+          <path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/>
+        </svg>
+      </a>
+
+      <div class="dropdown menu" id="menuDropdown">
+        <button class="icon-btn menu-btn" id="menuButton" type="button"
+                aria-haspopup="true" aria-expanded="false" aria-label="Menu">
+          <span class="burger"><i></i><i></i><i></i></span>
+        </button>
+        <div class="dropdown-panel menu-panel">
+          <ul class="menu-list">
+            <li><a href="#compte">Mon compte</a></li>
+            <li><a href="#achats">Mes achats</a></li>
+            <li><a href="#ventes">Mes ventes</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+            <li><a href="#a-propos">À propos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <p class="tagline">La plateforme des étudiant·e·s de <strong id="uniName">l'UNIL</strong></p>
+
+    <nav class="pills" aria-label="Rubriques">
+      <a class="pill" href="#notes">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/>
+          <path d="M14 3v5h5M9 13h6M9 17h4"/>
+        </svg>
+        <span>Notes</span>
+      </a>
+      <a class="pill" href="#seconde-main">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 12a8 8 0 0 1 13.7-5.7L20 8.5"/>
+          <path d="M20 4v4.5h-4.5"/>
+          <path d="M20 12a8 8 0 0 1-13.7 5.7L4 15.5"/>
+          <path d="M4 20v-4.5h4.5"/>
+        </svg>
+        <span>Seconde main</span>
+      </a>
+      <a class="pill" href="#livres">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 6.5C10.5 5 8 4.5 4 4.5v13c4 0 6.500.5 8 2 1.500-1.500 4-2 8-2v-13c-4 0-6.500.5-8 2z"/>
+          <path d="M12 6.500v13"/>
+        </svg>
+        <span>Livres</span>
+      </a>
+      <a class="pill" href="#offres">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 12.500V5a2 2 0 0 1 2-2h7.500L21 11.500 12.500 20z"/>
+          <circle cx="8" cy="8" r="1.500"/>
+        </svg>
+        <span>Offres</span>
+      </a>
+    </nav>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
