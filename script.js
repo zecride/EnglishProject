@@ -10,7 +10,7 @@
    ========================================================== */
 const UNIVERSITIES = [
   { id: "unil",  label: "UNIL",  name: "l'UNIL",  full: "Université de Lausanne",  color: "#0038ff", image: "images/unil.jpg",  logo: "images/unil-logo.jpg" },
-  { id: "epfl",  label: "EPFL",  name: "l'EPFL",  full: "École polytechnique fédérale", color: "#e2001a", image: "images/epfl-campus.jpg", logo: "images/epfl-logo.jpg" },
+  { id: "epfl",  label: "EPFL",  name: "l'EPFL",  full: "École polytechnique fédérale", color: "#e2001a", image: "images/epfll-campus.jpg", logo: "images/epfl-logo.jpg" },
   { id: "unige", label: "UNIGE", name: "l'UNIGE", full: "Université de Genève",    color: "#cf0063", image: "images/unige.jpg" },
   { id: "unifr", label: "UNIFR", name: "l'UNIFR", full: "Université de Fribourg",  color: "#1f4e9c", image: "images/unifr.jpg" },
   { id: "unine", label: "UNINE", name: "l'UNINE", full: "Université de Neuchâtel", color: "#3f8f2f", image: "images/unine.jpg" },
