@@ -11,9 +11,9 @@
 const UNIVERSITIES = [
   { id: "unil",  label: "UNIL",  name: "l'UNIL",  full: "Université de Lausanne",  color: "#0038ff", image: "images/unil.jpg",  logo: "images/unil-logo.jpg" },
   { id: "epfl",  label: "EPFL",  name: "l'EPFL",  full: "École polytechnique fédérale", color: "#e2001a", image: "images/epfll-campus.jpg", logo: "images/epfl-logo.jpg" },
-  { id: "unige", label: "UNIGE", name: "l'UNIGE", full: "Université de Genève",    color: "#cf0063", image: "images/unige-campus.jpg", logo: "images/unige-logo.jpg" },
-  { id: "unifr", label: "UNIFR", name: "l'UNIFR", full: "Université de Fribourg",  color: "#1f4e9c", image: "images/unifr.jpg", logo: "images/unifr-logo.jpg" },
-  { id: "unine", label: "UNINE", name: "l'UNINE", full: "Université de Neuchâtel", color: "#3f8f2f", image: "images/unine.jpg", logo: "images/unnee-logo.jpg" },
+  { id: "unige", label: "UNIGE", name: "l'UNIGE", full: "Université de Genève",    color: "#cf0063", image: "images/UNIGE-campus.jpg", logo: "images/UNIGE-logo.jpg" },
+  { id: "unifr", label: "UNIFR", name: "l'UNIFR", full: "Université de Fribourg",  color: "#1f4e9c", image: "images/unifr.jpg", logo: "images/UNIFR-logo.jpg" },
+  { id: "unine", label: "UNINE", name: "l'UNINE", full: "Université de Neuchâtel", color: "#3f8f2f", image: "images/unine.jpg", logo: "images/UNINE-logo.jpg" },
 ];
 
 const STORAGE_KEY = "universite";
